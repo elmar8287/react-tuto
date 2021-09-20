@@ -1,10 +1,21 @@
 import React from "react"
+import styles from "./TodoItem.module.css"
 
 function TodoItem(props) {
   return (
-    
-    <li><input type="checkbox" />{props.todo.title}onChange={() => console.log("clicked")}</li>
-  )    
+    <li className={styles.item}>
+      <input
+        type="checkbox"
+        className={styles.checkbox}
+        checked={props.todo.completed}
+        onChange={() => props.handleChangeProps(props.todo.id)}
+      />
+      <button onClick={() => props.deleteTodoProps(props.todo.id)}>
+        Delete
+      </button>
+      {props.todo.title}
+    </li>
+  )  
 }
 
 export default TodoItem
