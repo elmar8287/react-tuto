@@ -1,7 +1,8 @@
 <!-- # Getting Started with Create React App -->
-# TODO list in React 
+# TODO list in React
+## This is a SPA todo-list, helps to organize tasks. You can easily add, delete and edit todos. Also, there is the possibility to mark tasks as completed. Local storage will keep your task on the list after refreshing and either close/open the browser.
 
-Check deployed [demo](https://elmar8287.github.io/react-tuto/).
+## Check deployed [demo](https://elmar8287.github.io/react-tuto/).
 
 ![Screen Shot](./src/screen-shot.PNG)
 
