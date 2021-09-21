@@ -67,8 +67,6 @@ body {
 .active-link {
   color: rgb(255, 255, 255);
   background-color: black;
-  border-radius: 5px;
-  text-decoration: underline;
 }
 
 /* sidebar Nav */
@@ -113,6 +111,10 @@ a {
   color: #030303;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+a:hover {
+  color: rgb(192, 122, 122);
 }
 
 .menuNav li:first-child {

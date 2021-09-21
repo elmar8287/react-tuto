@@ -30,7 +30,7 @@ const Navbar = () => {
     <nav className="navBar">
       <button type="button" onClick={handleToggle}>
         {navbarOpen ? (
-          <MdClose style={{ color: '#fff', width: '40px', height: '40px' }} />
+          <MdClose style={{ color: '#000', width: '40px', height: '40px' }} />
         ) : (
           <FiMenu style={{ color: '#7b7b7b', width: '40px', height: '40px' }} />
         )}
