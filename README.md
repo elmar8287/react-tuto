@@ -1,7 +1,7 @@
 <!-- # Getting Started with Create React App -->
 # TODO list in React 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check deployed [demo](https://elmar8287.github.io/react-tuto/).
 
 ![Screen Shot](./src/screen-shot.PNG)
 
